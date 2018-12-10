@@ -3,28 +3,26 @@
   "version": "0.0.1",
   "author": "MCOI - Sim Chong",
   "homepage": "https://github.com/amerenmcoi",
-  "description": "A phone module that you can use intergrate in your app",
-  "private": true,
+  "description": "",
+  "private": false,
   "license": "MIT",
   "scripts": {
-    "ngc": "ngc",
-    "build": "rm -rf dist && npm run ngc",
-    "publishPackage": "npm run build"
+  "ngc": "ngc",
+  "build": "rm -rf dist && npm run ngc",
+  "publishPackage": "npm run build"
   },
   "repository": {},
   "dependencies": {},
   "devDependencies": {
-    "@angular/common": "5.0.3",
-    "@angular/compiler": "5.0.3",
-    "@angular/compiler-cli": "5.0.3",
-    "@angular/core": "5.0.3",
-    "@angular/forms": "^5.2.7",
-    "@angular/platform-browser": "5.0.3",
-    "@angular/platform-browser-dynamic": "5.0.3",
-    "@types/node": "^9.4.6",
-    "ionic-angular": "3.9.2",
-    "rxjs": "5.5.2",
-    "typescript": "2.4.2",
-    "zone.js": "0.8.18"
+  "@angular/common": "^4.0.0",
+  "@angular/compiler": "^4.0.0",
+  "@angular/compiler-cli": "^4.0.0",
+  "@angular/core": "^4.0.0",
+  "@angular/platform-browser": "^4.0.0",
+  "@angular/platform-browser-dynamic": "^4.0.0",
+  "@types/node": "^6.0.60",
+  "zone.js": "^0.8.4",
+  "rxjs": "^5.4.0",
+  "typescript": "^2.3.4"
   }
-}
+  }
